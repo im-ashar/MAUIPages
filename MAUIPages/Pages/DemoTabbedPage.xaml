@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="MAUIPages.Pages.DemoTabbedPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="DemoTabbedPage"
+    BarBackgroundColor="#B8B8D1"
+    SelectedTabColor="#4059AD"
+    UnselectedTabColor="#36454F">
+    <ContentPage
+        Title="Home"
+        BackgroundColor="DarkSlateGray"
+        IconImageSource="home.png">
+        <Label
+            Margin="5"
+            BackgroundColor="DarkSlateGray"
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="This is Home Page"
+            TextColor="#EFF2F1" />
+    </ContentPage>
+    <ContentPage
+        Title="Cart"
+        BackgroundColor="DarkSlateGray"
+        IconImageSource="cart.png">
+        <Label
+            Margin="5"
+            BackgroundColor="DarkSlateGray"
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="This is Cart Page"
+            TextColor="#EFF2F1" />
+    </ContentPage>
+    <ContentPage
+        Title="Profile"
+        BackgroundColor="DarkSlateGray"
+        IconImageSource="user.png">
+        <Label
+            Margin="5"
+            BackgroundColor="DarkSlateGray"
+            FontAttributes="Bold"
+            FontSize="20"
+            Text="This is Profile Page"
+            TextColor="#EFF2F1" />
+    </ContentPage>
+</TabbedPage>
